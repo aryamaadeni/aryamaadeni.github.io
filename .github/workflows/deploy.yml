@@ -1,4 +1,3 @@
-
 name: Build and Deploy to GitHub Pages
 
 on:
@@ -8,18 +7,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write # Allow write access to contents for pushing to the main branch
 
 jobs:
   build-and-deploy:
-    concurrency: ci-${{ github.ref }} # Recommended concurrency setting
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          # This is the crucial setting that allows deploying to the same branch.
-          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -37,8 +32,12 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # This is the crucial part for a User Page repository.
+          # It pushes the contents of the `out` directory to the `main` branch.
           publish_branch: main
           publish_dir: ./out
+          # This prevents the workflow from creating a new commit history each time.
+          force_orphan: false
           # The user who makes the commit
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
