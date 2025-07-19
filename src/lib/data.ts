@@ -5,7 +5,8 @@ export const RESUME_DATA = {
   title: "Mobile Application Developer",
   location: "Kozhikode, Kerala",
   contacts: ["+91 8129523219", "+91 8848213219"],
-  profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGSJCfw8iZgJA/profile-displayphoto-scale_400_400/B56Ze2NCXKHoAg-/0/1751108561950?e=1755734400&v=beta&t=F3yP9kJnVDlXJk5ELfjZ4-TXeX441Bz-R0x7lGQg2v0",
+  profilePicture: "/profile.png",
+  //profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGSJCfw8iZgJA/profile-displayphoto-scale_400_400/B56Ze2NCXKHoAg-/0/1751108561950?e=1755734400&v=beta&t=F3yP9kJnVDlXJk5ELfjZ4-TXeX441Bz-R0x7lGQg2v0",
   social: [
     {
       name: "GitHub",
