@@ -132,7 +132,7 @@ export const RESUME_DATA = {
     {
       title: "FeatureMe",
       description: "Global music service marketplace connecting musicians to buy and sell custom music services. Managed secure transactions via external payment gateways.",
-      image: "/featureme.png",
+      image: "/profile.png",
       tags: ["Swift", "Music", "Marketplace", "iOS"],
       links: {
         live: "https://apps.apple.com/in/app/featureme-featuring-you/id6478915698",
