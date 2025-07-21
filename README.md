@@ -1,4 +1,5 @@
-Arya Maadeni's Portfolio
+Arya Maadeni's Portfolio  
+
 Greetings! I'm Arya Maadeni, a Mobile Application Developer based in Kozhikode, Kerala, India. With 7 years of dedicated experience, I specialize in crafting high-performance, user-centric native iOS (Swift, Objective-C, SwiftUI) and cross-platform (Flutter, React Native) applications that drive engagement and deliver significant business value.
 
 Expertise & Toolkit
