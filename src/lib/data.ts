@@ -182,7 +182,7 @@ export const RESUME_DATA = {
     {
       title: "Cafe Bazza",
       description: "A food ordering app for a specific restaurant, featuring a secure ordering flow, payment integration, and menu display.",
-      image: "https://placehold.co/600x400.png",
+      image: "/cafebazza.png",
       tags: ["Swift", "Food Ordering", "E-commerce", "iOS"],
       links: {
         live: "https://apps.apple.com/in/app/cafebazza/id1448020837",
@@ -242,7 +242,7 @@ export const RESUME_DATA = {
     {
       title: "Alsayer Academy",
       description: "E-learning platform with course delivery and registration. Built all key features to support content access and user enrollment.",
-      image: "https://placehold.co/600x400.png",
+      image: "/alsayer.png",
       tags: ["Swift", "E-Learning", "Education", "iOS"],
       links: {
         live: "https://apps.apple.com/in/app/alsayer-academy/id1454200366"
