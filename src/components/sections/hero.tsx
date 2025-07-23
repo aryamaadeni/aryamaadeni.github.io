@@ -7,27 +7,28 @@ import { RESUME_DATA } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
-  const typedEl = useRef<HTMLSpanElement>(null);
+  const typedRef = useRef<HTMLSpanElement>(null);
+  const typedInstance = useRef<Typed | null>(null);
 
   useEffect(() => {
-    if (!typedEl.current) return;
-
-    const typed = new Typed(typedEl.current, {
-      strings: [
-        "Mobile Application Developer",
-        "iOS Developer",
-        "Flutter Developer",
-        "React Native Enthusiast",
-      ],
-      typeSpeed: 50,
-      backSpeed: 25,
-      loop: true,
-      startDelay: 500,
-      backDelay: 1500,
-    });
+    if (typedRef.current) {
+      typedInstance.current = new Typed(typedRef.current, {
+        strings: [
+          "Mobile Application Developer",
+          "iOS Developer",
+          "Flutter Developer",
+          "React Native Enthusiast",
+        ],
+        typeSpeed: 50,
+        backSpeed: 25,
+        loop: true,
+        startDelay: 500,
+        backDelay: 1500,
+      });
+    }
 
     return () => {
-      typed.destroy();
+      typedInstance.current?.destroy();
     };
   }, []);
 
@@ -51,7 +52,10 @@ export function HeroSection() {
 
       <p className="text-lg sm:text-xl text-foreground/80 mb-8 max-w-3xl mx-auto">
         A passionate{" "}
-        <span ref={typedEl} className="font-semibold text-primary" />
+        <span
+          ref={typedRef}
+          className="font-semibold text-primary"
+        ></span>
       </p>
 
       <div className="flex gap-4 justify-center">
