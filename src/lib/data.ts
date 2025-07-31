@@ -170,34 +170,14 @@ export const RESUME_DATA = {
       hint: "food ordering app"
     },
     {
-      title: "Cafe Bazza",
-      description: "A food ordering app for a specific restaurant, featuring a secure ordering flow, payment integration, and menu display.",
-      image: "/cafebazza.png",
-      tags: ["Swift", "Food Ordering", "E-commerce", "iOS"],
+      title: "Zidnei",
+      description: "Online learning platform for school subjects and aptitude tests. Developed lessons, quizzes, model answers, and student tracking tools.",
+      image: "/zidnei.png",
+      tags: ["Swift", "E-Learning", "Education", "iOS"],
       links: {
-        live: "https://apps.apple.com/in/app/cafebazza/id1448020837",
+        live: "https://apps.apple.com/in/app/zidnei/id1109706854"
       },
-      hint: "food ordering app"
-    },
-    {
-      title: "Motor App",
-      description: "Platform for buying/selling pre-owned cars. Built features for car listings, chat between users, and transaction flows end-to-end.",
-      image: "/motor.png",
-      tags: ["Swift", "Car Rental", "E-commerce", "iOS"],
-      links: {
-        live: "https://apps.apple.com/in/app/motor-app/id1498883504"
-      },
-      hint: "car rental app"
-    },
-    {
-      title: "FeatureMe",
-      description: "Global music service marketplace connecting musicians to buy and sell custom music services. Managed secure transactions via external payment gateways.",
-      image: "/featureme.png",
-      tags: ["Swift", "Music", "Marketplace", "iOS"],
-      links: {
-        live: "https://apps.apple.com/in/app/featureme-featuring-you/id6478915698",
-      },
-      hint: "music marketplace app"
+      hint: "e-learning app"
     },
     {
       title: "Altruify",
@@ -210,6 +190,16 @@ export const RESUME_DATA = {
       hint: "donation health app"
     },
     {
+      title: "Motor App",
+      description: "Platform for buying/selling pre-owned cars. Built features for car listings, chat between users, and transaction flows end-to-end.",
+      image: "/motor.png",
+      tags: ["Swift", "Car Rental", "E-commerce", "iOS"],
+      links: {
+        live: "https://apps.apple.com/in/app/motor-app/id1498883504"
+      },
+      hint: "car rental app"
+    },
+    {
       title: "Ghadana",
       description: "A Kuwaiti cuisine app for weekly/monthly lunch subscriptions. Implemented the full meal ordering and scheduling system.",
       image: "/ghadana.png",
@@ -220,14 +210,24 @@ export const RESUME_DATA = {
       hint: "kuwaiti food app"
     },
     {
-      title: "Zidnei",
-      description: "Online learning platform for school subjects and aptitude tests. Developed lessons, quizzes, model answers, and student tracking tools.",
-      image: "/zidnei.png",
-      tags: ["Swift", "E-Learning", "Education", "iOS"],
+      title: "FeatureMe",
+      description: "Global music service marketplace connecting musicians to buy and sell custom music services. Managed secure transactions via external payment gateways.",
+      image: "/featureme.png",
+      tags: ["Swift", "Music", "Marketplace", "iOS"],
       links: {
-        live: "https://apps.apple.com/in/app/zidnei/id1109706854"
+        live: "https://apps.apple.com/in/app/featureme-featuring-you/id6478915698",
       },
-      hint: "e-learning app"
+      hint: "music marketplace app"
+    },    
+    {
+      title: "Cafe Bazza",
+      description: "A food ordering app for a specific restaurant, featuring a secure ordering flow, payment integration, and menu display.",
+      image: "/cafebazza.png",
+      tags: ["Swift", "Food Ordering", "E-commerce", "iOS"],
+      links: {
+        live: "https://apps.apple.com/in/app/cafebazza/id1448020837",
+      },
+      hint: "food ordering app"
     },
     {
       title: "Taaleb",
