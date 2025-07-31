@@ -130,14 +130,14 @@ export const RESUME_DATA = {
   },
   projects: [
     {
-      title: "FeatureMe",
-      description: "Global music service marketplace connecting musicians to buy and sell custom music services. Managed secure transactions via external payment gateways.",
-      image: "/featureme.png",
-      tags: ["Swift", "Music", "Marketplace", "iOS"],
+      title: "iOsho",
+      description: "A comprehensive meditation platform offering Osho talks, radio, tarot games, and audio/video content with complex media playback and subscription models.",
+      image: "/iosho.png",
+      tags: ["Swift", "Meditation", "Streaming", "iOS"],
       links: {
-        live: "https://apps.apple.com/in/app/featureme-featuring-you/id6478915698",
+        live: "https://apps.apple.com/in/app/iosho/id1528372736",
       },
-      hint: "music marketplace app"
+      hint: "meditation app"
     },
     {
       title: "Bright Bird",
@@ -150,26 +150,6 @@ export const RESUME_DATA = {
       hint: "wellness app"
     },
     {
-        title: "Purpose Color",
-        description: "Goal setting and habit tracking app for personal development, featuring daily action tracking and self-help networking.",
-        image: "/purposecolor.png",
-        tags: ["Swift", "Objective-C", "Motivation", "Productivity", "iOS"],
-        links: {
-          live: "https://apps.apple.com/in/app/purposecolor-goal-setting-app/id1186639523",
-        },
-        hint: "goal tracking app"
-    },
-    {
-      title: "iOsho",
-      description: "A comprehensive meditation platform offering Osho talks, radio, tarot games, and audio/video content with complex media playback and subscription models.",
-      image: "/iosho.png",
-      tags: ["Swift", "Meditation", "Streaming", "iOS"],
-      links: {
-        live: "https://apps.apple.com/in/app/iosho/id1528372736",
-      },
-      hint: "meditation app"
-    },
-    {
       title: "Geojit FundsGenie",
       description: "Mutual fund app with smart investing tools, portfolio aggregation, and Morningstar integration for real-time investment insights.",
       image: "/fundsgenie.png",
@@ -178,6 +158,16 @@ export const RESUME_DATA = {
         live: "https://apps.apple.com/in/app/geojit-fundsgenie/id1617766708",
       },
       hint: "finance investment app"
+    },
+    {
+      title: "Alliwan",
+      description: "Designed and launched a comprehensive food ordering application, featuring intuitive menu browsing and integrated payment processing. Optimized for a smooth user experience.",
+      image: "/alliwan.png",
+      tags: ["Swift", "Food & Beverages", "iOS"],
+      links: {
+        live: "https://apps.apple.com/in/app/alliwan/id1583911898",
+      },
+      hint: "food ordering app"
     },
     {
       title: "Cafe Bazza",
@@ -198,6 +188,16 @@ export const RESUME_DATA = {
         live: "https://apps.apple.com/in/app/motor-app/id1498883504"
       },
       hint: "car rental app"
+    },
+    {
+      title: "FeatureMe",
+      description: "Global music service marketplace connecting musicians to buy and sell custom music services. Managed secure transactions via external payment gateways.",
+      image: "/featureme.png",
+      tags: ["Swift", "Music", "Marketplace", "iOS"],
+      links: {
+        live: "https://apps.apple.com/in/app/featureme-featuring-you/id6478915698",
+      },
+      hint: "music marketplace app"
     },
     {
       title: "Altruify",
@@ -238,6 +238,16 @@ export const RESUME_DATA = {
         live: "https://apps.apple.com/in/app/taaleb/id880917220"
       },
       hint: "learning management app"
+    },
+    {
+        title: "Purpose Color",
+        description: "Goal setting and habit tracking app for personal development, featuring daily action tracking and self-help networking.",
+        image: "/purposecolor.png",
+        tags: ["Swift", "Objective-C", "Motivation", "Productivity", "iOS"],
+        links: {
+          live: "https://apps.apple.com/in/app/purposecolor-goal-setting-app/id1186639523",
+        },
+        hint: "goal tracking app"
     },
     {
       title: "Alsayer Academy",
