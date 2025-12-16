@@ -14,8 +14,8 @@ export function HeroSection() {
     if (typedRef.current) {
       typedInstance.current = new Typed(typedRef.current, {
         strings: [
-          "Mobile Application Developer",
           "iOS Developer",
+          "Mobile Application Developer",
           "Flutter Developer",
           "React Native Enthusiast",
         ],
