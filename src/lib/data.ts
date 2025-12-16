@@ -32,6 +32,7 @@ export const RESUME_DATA = {
     { name: "React Native", icon: Code },
     { name: "Dart", icon: Code },
     { name: "SwiftUI", icon: Code },
+    { name: "Combine", icon: Code },
     { name: "Xcode", icon: Laptop },
     { name: "Visual Studio Code", icon: Laptop },
     { name: "Git", icon: GitMerge },
