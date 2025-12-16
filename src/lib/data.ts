@@ -24,7 +24,7 @@ export const RESUME_DATA = {
       icon: Mail,
     },
   ],
-  about: "Skilled Mobile Application Developer with 7 years of experience in designing, developing, and optimizing high-performance native iOS (Swift, Objective-C, SwiftUI) and cross-platform (Flutter, React Native) applications. Proven track record of delivering strong, user-focused mobile solutions that enhance user engagement and drive business value. Proficient in leveraging modern frameworks, architectural patterns (MVC, MVVM), and Agile methodologies to ensure scalable and easy-to-maintain codebases. Seeking to contribute advanced mobile development skills to a dynamic team focused on innovative product development.",
+  about: "Skilled Mobile Application Developer with 8 years of experience in designing, developing, and optimizing high-performance native iOS (Swift, Objective-C, SwiftUI) and cross-platform (Flutter, React Native) applications. Proven track record of delivering strong, user-focused mobile solutions that enhance user engagement and drive business value. Proficient in leveraging modern frameworks, architectural patterns (MVC, MVVM), and Agile methodologies to ensure scalable and easy-to-maintain codebases. Seeking to contribute advanced mobile development skills to a dynamic team focused on innovative product development.",
   mainSkills: [
     { name: "Swift", icon: Code },
     { name: "Objective-C", icon: Code },
@@ -38,10 +38,22 @@ export const RESUME_DATA = {
   ],
   experience: [
     {
+        role: "iOS Developer",
+        company: "Alongside",
+        companyUrl: "https://www.alongside.team",
+        dates: "Aug 2025 – Nov 2025",
+        location: "Braga, Portugal",
+        description: [
+            "Developed and deployed high-quality iOS applications utilizing Swift and SwiftUI for client projects.",
+            "Collaborated closely with design and backend teams to integrate new features and maintain code standards.",
+            "Focused on optimizing app performance, ensuring a smooth user experience, and managing App Store submissions.",
+        ],
+    },
+    {
         role: "Mobile App Developer",
         company: "Deltasoft",
         companyUrl: "https://deltasoft.in/",
-        dates: "May 2024 – Present",
+        dates: "May 2024 – Jul 2025",
         location: "Kochi, Kerala",
         description: [
             "Led development initiatives for both cross-platform (Flutter/Dart) and native iOS (Swift/Objective-C) applications, delivering high-performance solutions for diverse projects.",
