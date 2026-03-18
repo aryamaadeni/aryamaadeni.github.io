@@ -95,18 +95,7 @@ export const RESUME_DATA = {
             "Executed technical designs and led the implementation of over 10 complex iOS applications, consistently delivering projects that met or exceeded client expectations.",
             "Improved product quality and stability through code reviews, unit tests, and collaboration with QA teams to implement automation testing frameworks.",
         ],
-    },
-    {
-        role: "iOS Trainee",
-        company: "Codemac",
-        companyUrl: "http://www.codemac.in/",
-        dates: "May 2017 – Dec 2017",
-        location: "Calicut, Kerala",
-        description: [
-            "Designed and built core applications for the iOS platform, gaining critical hands-on experience in mobile development best practices.",
-            "Focused on ensuring excellent performance, quality, and responsiveness of applications during early development stages.",
-        ],
-    },
+    }
   ],
   education: [
     {
